@@ -14,11 +14,11 @@ the converted temperature from the input
 */
 public class CtoFTester{
   public static double celsiusToFahrenheit(double celcius){
-    return (celcius * (9/5) + 32);
+    return ((celcius * (9.0/5.0)) + 32); //change divsion because numbers have to be floats
   }
 
   public static double fahrenheitToCelsius(double farenheight){
-    return ((farenheight - 32) * (5/9));
+    return ((farenheight - 32) * (5.0/9.0));
   }
 
   public static void main(String[] args){
